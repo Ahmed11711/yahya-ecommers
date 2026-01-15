@@ -1,0 +1,5 @@
+{
+  "name": "Nexus E-Commerce Admin",
+  "description": "A comprehensive bilingual (Arabic/English) e-commerce admin dashboard with full CRUD capabilities for products, orders, reviews, and articles.",
+  "requestFramePermissions": []
+}

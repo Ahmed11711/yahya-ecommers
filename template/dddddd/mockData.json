@@ -1,0 +1,83 @@
+
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": { "en": "Ultra Boost 2.0", "ar": "ألترا بوست 2.0" },
+      "description": { "en": "Premium athletic running shoes.", "ar": "أحذية جري رياضية متميزة." },
+      "price": 120.50,
+      "mainImage": "https://picsum.photos/seed/p1/400/400",
+      "additionalImages": ["https://picsum.photos/seed/p1a/400/400", "https://picsum.photos/seed/p1b/400/400"],
+      "categoryId": "c1",
+      "stock": 45,
+      "sku": "UB-001",
+      "createdAt": "2023-10-01T10:00:00Z"
+    }
+  ],
+  "categories": [
+    { 
+      "id": "c1", 
+      "name": { "en": "Footwear", "ar": "الأحذية" },
+      "image": "https://picsum.photos/seed/cat-shoes/400/400"
+    },
+    { 
+      "id": "c2", 
+      "name": { "en": "Electronics", "ar": "الإلكترونيات" },
+      "image": "https://picsum.photos/seed/cat-electronics/400/400"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customerName": "John Doe",
+      "customerPhone": "+964 780 111 2233",
+      "shippingAddress": "Al-Mansour, Baghdad, Iraq",
+      "items": [
+        { "productId": "p1", "quantity": 1, "price": 120.50 }
+      ],
+      "totalAmount": 120.50,
+      "status": "Pending",
+      "createdAt": "2024-03-20T14:30:00Z"
+    },
+    {
+      "id": "ORD-1002",
+      "customerName": "Fatima Ahmed",
+      "customerPhone": "+964 770 444 5566",
+      "shippingAddress": "Erbil, Gulan Street, Building 45",
+      "items": [
+        { "productId": "p1", "quantity": 2, "price": 120.50 }
+      ],
+      "totalAmount": 241.00,
+      "status": "Drivers Arrived",
+      "createdAt": "2024-03-21T09:15:00Z"
+    }
+  ],
+  "reviews": [],
+  "articles": [],
+  "users": [
+    {
+      "id": "u1",
+      "name": "Alex Rivera",
+      "email": "admin@nexus.com",
+      "role": "Admin",
+      "status": "active",
+      "createdAt": "2023-01-01T00:00:00Z"
+    }
+  ],
+  "settings": {
+    "logo": "https://picsum.photos/seed/logo/200/200",
+    "favicon": "https://picsum.photos/seed/fav/32/32",
+    "socialLinks": {
+      "facebook": "facebook.com/nexus",
+      "instagram": "instagram.com/nexus"
+    },
+    "businessName": "Nexus E-Commerce Solutions",
+    "supportEmail": "support@nexus.com",
+    "paymentPhoneNumber": "+964 770 123 4567",
+    "address": "123 Business Way, DXB",
+    "theme": {
+      "primaryColor": "#3b82f6",
+      "secondaryColor": "#64748b"
+    }
+  }
+}
