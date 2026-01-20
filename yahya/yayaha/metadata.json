@@ -1,0 +1,7 @@
+{
+  "name": "ShopMax Multi-Vendor Marketplace",
+  "description": "A comprehensive multi-vendor e-commerce platform with integrated installment plans (Buy Now Pay Later), detailed vendor dashboards, and product management tools.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
