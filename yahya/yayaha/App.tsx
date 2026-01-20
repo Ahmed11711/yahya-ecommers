@@ -50,7 +50,6 @@ const App: React.FC = () => {
               <Route path="/articles" element={<ArticlesPage />} />
               <Route path="/download" element={<DownloadPage />} />
 
-              {/* Customer Routes */}
               <Route
                 path="/profile"
                 element={
